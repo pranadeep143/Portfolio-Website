@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanampudi Pranadeep Kumar 's Resume</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #ffB6C1; /* Light pink background for body */
+    }
+
+    h1 {
+      color: #ff0000; /* red color for the main title */
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 36px;
+    }
+
+    .section {
+      background-color: #ffffff; /* White background for sections */
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-left: 5px solid #4682b4; /* Steel blue left border */
+      border-radius: 5px;
+    }
+
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #4682b4; /* Steel blue color for section titles */
+    }
+
+    .info-item {
+      margin-bottom: 10px;
+    }
+
+    .info-label {
+      font-weight: bold;
+      color: #6a5acd; /* Slate blue color for labels */
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 5px;
+      font-size: 16px;
+      color: #2e8b57; /* Sea green color for list items */
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      
+      .section {
+        padding: 15px;
+      }
+      
+      .section-title {
+        font-size: 20px;
+      }
+    }
+
+    .highlight {
+      background-color: #ffffe0; /* Light yellow highlight */
+      border-radius: 5px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sanampudi Pranadeep Kumar </h1>
+  <div class="section">
+    <div class="info-item">
+      <span class="info-label">Email:</span> pranadeepkumarsanampudi@gmail.com
+    </div>
+    <div class="info-item">
+      <span class="info-label">Mobile:</span> 77308 08547
+    </div>
+    <div class="info-item">
+      <span class="info-label">Address:</span> Guntur, Andhra Pradesh, 522421
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="info-item">
+      <span class="info-label">B-Tech:</span> CSE 1st year regular 2023 to still from Aurora Deemed University
+    </div>
+    <div class="info-item">
+      <span class="info-label">Intermediate:</span> MPC with 80% in 2023 from Delhi Public School
+    </div>
+    <div class="info-item">
+      <span class="info-label">SSC:</span> SSC with 100% in 2021 from Narayana model school
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="info-item">
+      <span class="info-label">Programming:</span> Basics of C++ program
+    </div>
+    <div class="info-item">
+      <span class="info-label">CAD:</span> Basics in AutoCAD of Autodesk
+    </div>
+    <div class="info-item">
+      <span class="info-label">Office:</span> Basics is Microsoft (Word, Excel and Power Point)
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Management Skills</div>
+    <ul>
+      <li>Leadership</li>
+      <li>Communication</li>
+      <li>Entrepreneurship</li>
+      <li>Analytical problem solving and Decision making</li>
+      <li>Interpersonal communication</li>
+      <li>Project Management</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Projects</div>
+    <ul>
+      <li>lazer beam experiment</li>
+      <li>Web Crawler using Queues</li>
+      <li>Pressure activated lighting</li>
+      <li>Visited T-Hub by industrial visiting from university</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Additional Information</div>
+    <div class="info-item">
+      <span class="info-label">father's Name:</span> Mallikarjuna 
+    </div>
+    <div class="info-item">
+      <span class="info-label">Date of Birth:</span> 01-04-2005
+    </div>
+    <div class="info-item">
+      <span class="info-label">Languages Known:</span> English, Telugu
+    </div>
+  </div>
+
+  <script>
+    // Add your JavaScript code here
+
+    // Example: Highlighting contact information when clicked
+    document.addEventListener('DOMContentLoaded', () => {
+      const contactInfoItems = document.querySelectorAll('.info-item');
+      
+      contactInfoItems.forEach(item => {
+        item.addEventListener('click', () => {
+          item.classList.toggle('highlight');
+        });
+      });
+    });
+  </script>
+</body>
+</html>
